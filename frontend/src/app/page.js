@@ -30,8 +30,11 @@ export default function Home() {
       setClusters(json.data || []);
       setError(null);
     } catch (err) {
+      const isLocal = typeof window !== 'undefined' && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1');
       setError(
-        'Backend server is not running. Please open a terminal and run: cd backend && npm run dev'
+        isLocal
+          ? 'Backend server is not running. Please open a terminal and run: cd backend && npm run dev'
+          : 'Connecting to backend... If the server was idle, it may take ~30 seconds to wake up. Please refresh shortly.'
       );
     } finally {
       setLoading(false);
