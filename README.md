@@ -7,7 +7,7 @@ News Pulse is a full-stack news intelligence system that ingests live articles f
 ## Project Links
 
 - **Live Frontend**: [https://newspulse.vercel.app](https://newspulse.vercel.app) *(Update with your deployed Vercel URL)*
-- **Live Backend API**: [https://newspulse-backend.onrender.com](https://newspulse-backend.onrender.com) *(Update with your deployed Render URL)*
+- **Live Backend API**: [https://newspulse-wj9w.onrender.com](https://newspulse-wj9w.onrender.com)
 - **Video Walkthrough (2-3 mins)**: [Link to Loom / Unlisted YouTube Video](https://www.youtube.com/) *(Add your video link here)*
 
 ---
